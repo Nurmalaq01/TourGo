@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ImagePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#009788"
+        android:text="TourGo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekan Gambar Untuk Melihat Ulasan"
+        android:textSize="20dp"
+        android:textColor="#009788"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="@drawable/outune"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PANTAI OETUNE"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Lokasi Pantai Oetune berada di Desa Tufanu, Kecamatan Kualin, Kabupaten Timor Tengah Selatan, Provinsi Nusa Tenggara Timur."
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/pic2"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="@drawable/rajaampat"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KEPULAUAN RAJA AMPAT"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Kepulauan Raja Ampat merupakan rangkaian empat gugusan pulau yang berdekatan dan berlokasi di barat bagian Kepala Burung (Vogelkoop) Pulau Papua. Secara administrasi, gugusan ini berada di bawah Kabupaten Raja Ampat, Provinsi Papua Barat. Kepulauan ini sekarang menjadi tujuan para penyelam yang tertarik akan keindahan pemandangan bawah lautnya."
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/pic3"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="@drawable/labuanbajo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LABUAN BAJO"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Labuan Bajo merupakan salah satu kota yang berada di kecamatan Komodo, Kabupaten Manggarai Barat, provinsi Nusa Tenggara Timur, Indonesia. Kota Labuan Bajo juga merupakan ibu kota dari kecamatan Kecamatan Komodo dan ibu kota Kabupaten Manggarai Barat. Sedang diwacanakan pengembangan Kota Labuan Bajo."
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/pic4"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="@drawable/bali"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BALI"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Pulau Bali adalah bagian dari Kepulauan Sunda Kecil sepanjang 153 km dan selebar 112 km sekitar 3,2 km dari Pulau Jawa. Secara geografis, Bali terletak di 8°25′23″ Lintang Selatan dan 115°14′55″ Bujur Timur yang membuatnya beriklim tropis seperti bagian Indonesia yang lain."
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:id="@+id/pic5"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:background="@drawable/borobudur"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CANDI BOROBUDUR"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Candi Borobudur terletak di desa Borobudur, Kecamatan Borobudur, Kabupaten Magelang, Jawa Tengah. Candi Borobudur juga masuk daftar tujuh keajaiban dunia. Candi umat Buddha ini dikelilingi taman luas dan berada di tengah gunung-gunung yang menjulang tinggi. Bangunan candi Borobudur dibangun pada abad ke-8 Masehi. Candi ini mulai diresmikan menjadi tempat wisata pada 15 Juli 1980. Kemudian, candi Borobudur ditetapkan sebagai Pusaka Budaya Dunia oleh UNESCO pada 1991."
+                    android:textColor="@color/black">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

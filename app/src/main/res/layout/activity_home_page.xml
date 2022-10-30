@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#009788"
+        android:text="TourGo"
+        />
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        android:autoStart="true"
+        android:flipInterval="2500"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/outune"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bali"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/labuanbajo"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rajaampat"/>
+
+    </ViewFlipper>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rekomendasi Wisata Untuk Anda"
+        android:textSize="20dp"
+        android:textColor="#009788"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:background="@drawable/labuanbajo"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/efrata"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bromo"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/borobudur"/>
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/tamansari"/>
+        </LinearLayout>
+    </ScrollView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#009788"
+        android:hint="Masukkan tujuan"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="40dp"
+        android:textColorHint="#009788"
+        android:hint="Pilih tanggal"
+        android:drawableRight="@drawable/tgl"
+        android:inputType="date"
+        />
+    <Button
+        android:id="@+id/click"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Selanjutnya"
+        android:textSize="15dp"
+        android:backgroundTint="#009788"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="63dp"
+        android:background="#009788">
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#009788"
+            android:src="@drawable/home" />
+
+        <ImageButton
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#009788"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/image" />
+
+        <ImageButton
+            android:id="@+id/calendar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#009788"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/calender" />
+
+        <ImageButton
+            android:id="@+id/profil"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#009788"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/profil" />
+    </LinearLayout>
+
+</LinearLayout>

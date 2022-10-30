@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Payment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#009788"
+        android:text="TourGo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tanggal Keberangkatan"
+        android:textSize="20dp"
+        android:textColor="#009788"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="tanggal"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Harga"
+        android:textSize="20dp"
+        android:textColor="#009788"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="harga"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#009788"
+        android:hint="Jenis kelamin"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_marginLeft="20dp">
+        <AutoCompleteTextView
+            android:id="@+id/dropdown_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+        android:id="@+id/ok3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="80dp"
+        android:text="OKE"
+        android:backgroundTint="#009788"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="243dp"
+        android:background="#009788">
+        <ImageButton
+            android:id="@+id/home3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="170dp"
+            android:background="@drawable/custom_button"
+            android:src="@drawable/home"/>
+
+    </LinearLayout>
+</LinearLayout>

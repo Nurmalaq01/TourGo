@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "563270656347",
+    "project_id": "tourgo-b601b",
+    "storage_bucket": "tourgo-b601b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563270656347:android:501febce16ac0fed613a7e",
+        "android_client_info": {
+          "package_name": "com.example.project_tourgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563270656347-4773au6kib2o6e4htl6n9d5d6ej15ie9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project_tourgo",
+            "certificate_hash": "35a6da77de38a7128e33d2bbb55a6b75d7cdfb71"
+          }
+        },
+        {
+          "client_id": "563270656347-jd9er7nfbbucml4b3sakp7eut4e0b4sj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3UggRS-2UtUTB0r6xjBUx0EiBdK-wh2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563270656347-jd9er7nfbbucml4b3sakp7eut4e0b4sj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

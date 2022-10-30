@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="200dp"
+        android:background="#009788"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/put"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:hint="Masukkan e-mail anda"/>
+            <EditText
+                android:id="@+id/put2"
+                android:layout_width="300dp"
+                android:textColorHint="@color/white"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Masukkan ulasan anda"/>
+            <Button
+                android:id="@+id/button"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Next"/>
+</LinearLayout>
+</LinearLayout>
